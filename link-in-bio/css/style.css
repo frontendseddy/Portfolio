@@ -1,0 +1,12 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.profilePhoto {
+    /*background: linear-gradient(#CC063E, #CC063E, #242424, #5E5B64);*/
+    border-radius: 150px;
+    box-shadow: 0px 0px 10px 0px black;
+}
