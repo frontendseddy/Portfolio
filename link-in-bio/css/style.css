@@ -1,12 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 body {
-    background-color: whitesmoke;
+    background: linear-gradient(to right, #1F1F1F, #292929, #333333);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    border: 1px solid white;
+}
+div {
+
 }
 .profilePhoto {
     /*background: linear-gradient(#CC063E, #CC063E, #242424, #5E5B64);*/
     border-radius: 150px;
     box-shadow: 0px 0px 10px 0px black;
+    margin: 10px;
+    justify-content: center;
+}
+h1 {
+    color: #CC063E;
+    letter-spacing: 5px;
+    border: 1px solid white;
+    font-size: 50px;
+}
+#bio {
+    border: 1px solid white;
+    font-size: 20px;
+}
+ul {
+    border: 1px solid white;
+}
+li {
+    list-style: none;
+    padding: 10px 50px;
+    margin: 10px;
+    border-radius: 15px;
+    height: auto;
+    width: 300px;
+    background-color: #6b0522;
+    text-align: center;
+}
+/* li img {
+    filter:contrast(0);
+    float: left;
+
+}
+l   i img:hover {
+    filter: contrast(1);
+} */
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+a:hover {
+    font-weight: bold;
 }
