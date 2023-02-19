@@ -7,12 +7,14 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+
 }
 nav {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    border: 1px solid purple;
 }
 .profilePhoto {
     /*background: linear-gradient(#CC063E, #CC063E, #242424, #5E5B64);*/
@@ -38,22 +40,23 @@ ul {
 }
 li {
     list-style: none;
-    padding: 10px 50px;
-    margin: 10px auto;
     border-radius: 10px;
     height: auto;
-    width: 300px;
+    width: 400px;
     background-color: #6b0522;
     text-align: center;
 }
 a {
+    display: block;
     text-decoration: none;
     color: black;
     text-align: center;
     font-size: 25px;
     letter-spacing: 2px;
     padding: 5px;
+    padding: 10px 50px;
+    margin: 10px auto;
 }
-a:hover {
+a:hover, a:visited, a:active {
     font-weight: bold;
 }
