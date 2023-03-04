@@ -1,0 +1,20 @@
+label {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    display: block;
+    background-color: #ffff;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+label::after {
+    content: "";
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    border: 180px;
+}

@@ -3,20 +3,11 @@
     padding: 0px;
 }
 
-.area{
-    /* 
-    background: #1D1D1D; */
-    background: #ffffff;        
+.area {
+    background-color: #111010;        
     width: 100%;
     height: 100vh;
-    filter: blur(5px);
-    z-index: 0;
-    
-    
-}
-
-.content {
-    z-index: 1;
+    z-index: 0; 
 }
 
 .circles{
@@ -34,9 +25,10 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(147, 147, 147, 0.268);
+    background-color: #93939344;
     animation: animate 30s linear infinite;
     bottom: -150px;  
+    filter: blur(4px);
 }
 
 .circles li:nth-child(1){
@@ -52,6 +44,7 @@
     height: 20px;
     animation-delay: 2s;
     animation-duration: 12s;
+    background-color: #707070;
 }
 
 .circles li:nth-child(3){
@@ -67,6 +60,7 @@
     height: 60px;
     animation-delay: 0s;
     animation-duration: 18s;
+    background-color: #656565;
 }
 
 .circles li:nth-child(5){
@@ -81,6 +75,7 @@
     width: 110px;
     height: 110px;
     animation-delay: 3s;
+    background-color: #595959;
 }
 
 .circles li:nth-child(7){
